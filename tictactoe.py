@@ -2,6 +2,8 @@ gameover = False
 td = 5, tx = 3
 
 while not gameover:
+	# Clear the output screen
+	print ":clear"
 	# Print the board
 	print "   |   |   "
 	print "---+---+---"
