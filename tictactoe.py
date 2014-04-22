@@ -11,4 +11,6 @@ while not gameover:
 	
 	row = input("Enter a row")
 	col = input("Enter a column")
-
+	
+	if row == "5":
+		gameover = True
